@@ -11,6 +11,10 @@ body {
     font-size: 1em;
 }
 
+h1{
+    font-family: 'Righteous';
+}
+
 /*header*/
 
 #title h1{
@@ -90,6 +94,23 @@ background-attachment: fixed;
 .about-box li {
     list-style: circle;
 }
+
+/*menu page*/
+
+#menu-hero-image{
+    background: url('../images/nougat-cone.jpeg') center no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    margin-top: 1rem;
+}
+
+.menu-main-title{
+    text-align: center;
+    padding: 2rem;
+    color: rgb(116, 113, 115);
+}
+
 
 /* Footer */
 
