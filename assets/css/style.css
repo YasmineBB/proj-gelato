@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    font-size: 1em;
+}
+
+/*header*/
+
+#title h1{
+    border-top: 2px solid rgb(255, 228, 196);
+    margin-top: 1rem;
+    padding: 1rem;
+    font-size: 3rem;
+    color: rgb(116, 113, 115);
+    background-color: rgb(255, 255, 255);
+    /* border-top: 1rem solid #ffff; */
+    font-family: 'Righteous';
+    text-align: center;
+}
+
+/*menu*/
+#menu {
+    letter-spacing: 5px;
+    padding: 0.55rem;
+    margin-top: 0.5rem;
+    border-bottom: 2px solid rgb(255, 228, 196);
+    border-top: 2px solid rgb(255, 228, 196);
+    display: flex;
+    justify-content: center;
+}
+
+
+#menu li {
+    font-family: 'Amatic SC';
+    font-size: 20px;
+    list-style-type: none;
+    margin: 10px 10px;
+    display: inline;
+    letter-spacing: 2px;
+}
+
+#menu a {
+    color: rgb(116, 113, 115);
+}
+
+/*main*/
+
+/* .main-img{
+  width:30rem;
+  padding: 2rem
+} */
+
+
+#hero-image{
+margin-top: 0.5rem;
+padding: 2rem;
+background: url('../images/pink-gelato.jpeg');
+background-size: cover;
+height: 100vh;
+width: 100%;
+background-attachment: fixed;
+}
+
+.about-box{
+    color: rgb(255, 228, 196);
+    border-radius: 20px;
+    /* background-color: rgb(116, 113, 115,0.3); */
+    width: 20vw;
+    padding: 2rem 4rem;
+    font-family: 'Righteous';
+
+}
+
+.about-box-header {
+    padding-bottom: 1rem;
+    font-size: 2.5rem;
+}
+
+.about-box p {
+    font-size: 3rem;
+}
+
+.about-box li {
+    list-style: circle;
+}
+
+/* Footer */
+
+.footer {
+    /* height: 75px;
+    padding: 25px; */
+    margin: 1rem 0;
+    border-top: 2px solid rgb(255, 228, 196);
+    border-bottom: 2px solid rgb(255, 228, 196)
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+
+.social-networks i {
+    list-style: none;
+    margin: 15px 30px;
+    display: inline-block;
+    font-size: 20px;
+    padding: 5px;
+    color: rgb(116, 113, 115);
+    border: 2px solid rgb(116, 113, 115);
+    border-radius: 50%;
+}
+
+.social-networks i:hover {
+    color:  rgb(51,102,0,0.8);
+    border-color: rgb(51,102,0,0.8);
+}
