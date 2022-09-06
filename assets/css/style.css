@@ -19,6 +19,12 @@ h2 {
   font-size: 3rem;
 }
 
+h3 {
+  font-family: "Amatic SC";
+  color: darkseagreen;
+  font-size: 2rem;
+}
+
 /*header*/
 
 #title h1 {
@@ -233,17 +239,21 @@ form {
   flex-direction: column;
   padding: 2rem;
   justify-content: center;
-  background: #fff;
+  background-color: darkseagreen;
   opacity: 0.9;
-  margin: 3rem 14rem;
+  /* margin: 3rem 14rem; */
   border-radius: 0.5rem;
 }
 
 .form-outer {
-  margin: 1rem;
+  margin: 3rem;
   padding: 2rem 0;
   opacity: 0.9;
   border-radius: 1rem;
+}
+
+.contact-heading {
+  color: white;
 }
 
 input,
